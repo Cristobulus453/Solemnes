@@ -1,0 +1,19 @@
+#solemne en la que tengo que hacer un strimlit con esta base de datos, y aquí es donde hago graficos
+
+#librerias
+!pip install plotly
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import plotly.express as px
+import plotly.graph_objects as go
+import geopandas as gpd
+
+#para ver las 100 columnas
+pd.options.display.max_columns=0
+
+#cargar strike_reports
+df = pd.read_csv('STRIKE_REPORTS.csv')
+
+
+
